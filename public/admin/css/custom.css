@@ -1,0 +1,64 @@
+/* your styles go here */
+
+.fs-32
+{
+    font-size: 32px !important;
+}
+.bold
+{
+    font-weight: bold !important;
+}
+.div_deg
+{
+    padding-top: 30px;
+}
+.div_center
+{
+    text-align: center;
+    padding: 40px;
+}
+.div_center label
+{
+    display: inline-block;
+    width: 200px;
+}
+.table_deg
+{
+    border: 2px solid white;
+    margin: auto;
+    width: auto;
+    text-align: center;
+    margin-top: 40px;
+}
+.table_deg th
+{
+    background-color: aqua;
+    padding: 10px;
+}
+.table_deg tr
+{
+    border: 3px solid white;
+}
+
+.table_deg td
+{
+    padding: 10px;
+    width: auto;
+}
+
+.table_deg tr:nth-child(odd)
+{
+    background-color:#635b5b;
+    color: black;
+}
+.table_deg tr:nth-child(even)
+{
+    background-color:#1b1a1a;
+    color: whitesmoke;
+}
+
+.align-center
+{
+    margin: auto;
+    width: 100px;
+}
