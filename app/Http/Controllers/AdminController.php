@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\User;
 use Illuminate\Support\Facades\Auth;
 use App\Models\Room;
+use App\Models\Booking;
 
 class AdminController extends Controller
 {
@@ -119,5 +120,12 @@ class AdminController extends Controller
         $roomModel->save();
 
         return redirect()->back();
+    }
+    public function bookings()
+    {
+        $bookings = Booking::all();
+
+
+        return view('admin.booking', compact('bookings'));
     }
 }
