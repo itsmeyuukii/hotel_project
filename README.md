@@ -25,6 +25,6 @@ Created Form in home for booking the room.
 
 Created Logic to check the conflict of Booking dates/room. March 5, 2024.
 
-
+Final update for this example project and will start a new Hotel Management on new Repo. March 27, 2024.
 
 
