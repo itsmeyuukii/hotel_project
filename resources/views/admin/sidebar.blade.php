@@ -22,6 +22,12 @@
             <li>
                 <a href="{{url('bookings')}}"><i class="icon-home"></i> Booking</a>
             </li>
+            <li>
+                <a href="{{url('view-gallery')}}"><i class="icon-home"></i> Gallery</a>
+            </li>
+            <li>
+                <a href="{{url('all-messages')}}"><i class="icon-home"></i> Messages</a>
+            </li>
 
     </ul>
   </nav>

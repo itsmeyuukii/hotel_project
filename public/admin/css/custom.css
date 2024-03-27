@@ -4,6 +4,33 @@
 {
     font-size: 32px !important;
 }
+h1
+{
+    font-size: 50px !important;
+}
+.image-container
+{
+    position: relative;
+}
+.image-container img
+{
+    display: block;
+    width: 100%;
+}
+/* to Center the .btn class inside image Container */
+.image-container .btn
+{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.image-container :hover
+{
+    opacity: 50%;
+}
+
+
 .bold
 {
     font-weight: bold !important;
@@ -22,13 +49,19 @@
     display: inline-block;
     width: 200px;
 }
+.table-container
+{
+    overflow: auto;
+    max-width: 100%;
+}
 .table_deg
 {
     border: 2px solid white;
     margin: auto;
-    width: auto;
+    width: 100%;
     text-align: center;
     margin-top: 40px;
+    overflow: scroll;
 }
 .table_deg th
 {
